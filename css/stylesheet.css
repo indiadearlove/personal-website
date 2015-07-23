@@ -17,7 +17,7 @@ h3 {
 }
 
 
-.rounded {
+.rounded-img {
   width: 300px;
   height: 300px;
   position: relative;
@@ -38,9 +38,11 @@ img {
 
 .round-button {
   width:10%;
+  
 }
 
 .round-button-circle {
+  margin-left: 350px;
   width: 100%;
   height:0;
   padding-bottom: 100%;
@@ -49,6 +51,21 @@ img {
   overflow:hidden;  
   background: #4679BD; 
   box-shadow: 0 0 3px gray;
+}
+
+#linkedin {
+  margin-left: 500px;
+  margin-top: -110px;
+}
+
+#github {
+  margin-left: 350px;
+  margin-top: 0px;
+}
+
+#cv {
+  margin-left: 650px;
+  margin-top: -110px;
 }
 
 .round-button-circle:hover {
