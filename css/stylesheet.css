@@ -1,7 +1,21 @@
 body {
   background-image: url("../images/zigzag.jpg");
   font-family: "Courier New", Courier, monospace; 
+  margin-left: 100px;
 }
+
+.des {
+  margin-left: 350px;
+  margin-right: 250px;
+  margin-top: 0px;
+}
+
+h3 {
+  margin-left: 350px;
+  margin-right: 250px;
+  margin-top: -270px; 
+}
+
 
 .rounded {
   width: 300px;
