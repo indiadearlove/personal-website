@@ -13,8 +13,8 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="js/bootstrap.js"></script>
 
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link href="./css/animate.css" rel="stylesheet">
     <link rel="stylesheet" href="css/portfolio-website.css">
 
   </head>
@@ -24,10 +24,10 @@
     <div class="container contentContainer" id="topContainer">
       <div id="background-image"></div>
       <div class="row">
-        <div class="col-md-6 col-md-offset-3" id="topRow">
+        <div class="col-md-6 col-md-offset-3 wow swing" id="topRow">
       
           <h1 class="marginTop blue">INDIA DEARLOVE</h1>
-          <p class="lead blue">Web Developer</p> 
+          <p class="lead blue">Web Developer</p>
       
         </div> 
         <hr>     
@@ -63,13 +63,15 @@
     
     <div class="contentContainer" id="aboutContainer">
     
-      <h1 class="center title">A little bit about me...</h1>
-      <img class="profile-pic center" src="./images/profile.jpg">
-      <br>
-      <p class="description center">Hi, I am India, a freelance web developer, from London. I write code and create websites. So far I have made a handful of websites for small businesses as well as many of my own for fun. Over the past few years I have been increasing my knowledge by self-teaching and doing various courses, most of which are online. For me, learning will always be ongoing, as technology is forever changing and updating. Another thing I love to do is travel and that is why at the moment I love the freedom of being a freelancer.</p>
-      <p class="description center">Currently based in Melbourne for a few months, because that is the beauty of being a freelancer, and open for work.</p>
-      <br>
-      <a class="btn btn-sample btn-lg center-block" href="professional-background.html" role="button" id="index-btn">my professional background</a>
+      <div class="wow fadeIn">
+        <h1 class="center title">A little bit about me...</h1>
+        <img class="profile-pic center" src="./images/profile.jpg">
+        <br>
+        <p class="description center">Hi, I am India, a freelance web developer, from London. I write code and create websites. So far I have made a handful of websites for small businesses as well as many of my own for fun. Over the past few years I have been increasing my knowledge by self-teaching and doing various courses, most of which are online. For me, learning will always be ongoing, as technology is forever changing and updating. Another thing I love to do is travel and that is why at the moment I love the freedom of being a freelancer.</p>
+        <p class="description center">Currently based in Melbourne for a few months, because that is the beauty of being a freelancer, and open for work.</p>
+        <br>
+        <a class="btn btn-sample btn-lg center-block" href="professional-background.html" role="button" id="index-btn">my professional background</a>
+      </div>
 
     </div>
 
@@ -97,5 +99,10 @@
         </div>
 
     </div>
+
+    <script src="js/wow.js"></script>
+    <script type="text/javascript">
+      new WOW().init();
+    </script>
   </body>
 </html>
