@@ -77,8 +77,10 @@ body {
   margin: 1px;
 }
 
-.navbar-nav {
-  float: right;
+@media(min-width: 768px){
+  .navbar-nav {
+    float: right;
+  }
 }
  
 .profile-pic {
